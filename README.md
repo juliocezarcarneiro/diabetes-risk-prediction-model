@@ -41,4 +41,3 @@ Anqa Javed, Humaira Enayetullah, Julio Carneiro, Shahab Eshghifard
 
 ## 📌 References
 - [Kaggle Dataset](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
-- [Public Health Agency of Canada (2022)](https://www.canada.ca/en/public-health/services/publications/diseases-conditions/diabetes-canada-highlights-chronic-disease-surveillance-system.html)
