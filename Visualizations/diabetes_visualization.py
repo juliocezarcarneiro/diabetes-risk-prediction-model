@@ -3,7 +3,7 @@
 
 # # Diabetes Visualization
 
-# In[51]:
+# In[57]:
 
 
 #Dependencies
@@ -16,7 +16,7 @@ import numpy as np
 sns.set(style="whitegrid")
 
 
-# In[3]:
+# In[59]:
 
 
 # Load dataset
@@ -24,14 +24,14 @@ df = pd.read_csv("Resources/full_cleaned_merged.csv")
 df.head()
 
 
-# In[5]:
+# In[61]:
 
 
 # Diabetes class balance
 df['Diabetes_binary'].value_counts(normalize=True)
 
 
-# In[9]:
+# In[63]:
 
 
 # Create Copy of dataframe and change values to categories
@@ -75,8 +75,8 @@ df2['CholCheck'] = df2['CholCheck'].replace({
 
 # General Health
 genhlth_map = {
-    5: 'Excellent', 4: 'Very Good', 3: 'Good', 2: 'Fair', 1: 'Poor'
-}
+    5: 'Poor', 4: 'Fair', 3: 'Good', 2: 'Very Good', 1: 'Excellent'
+} 
 df2['GenHlth'] = df2['GenHlth'].replace(genhlth_map)
 
 # Education
@@ -88,9 +88,9 @@ df2['Education'] = df2['Education'].replace(education_map)
 
 # Income
 income_map = {
-    1: 'Less Than $10,000', 2: 'Less Than $10,000', 3: 'Less Than $10,000',
-    4: 'Less Than $10,000', 5: 'Less Than $35,000', 6: 'Less Than $35,000',
-    7: 'Less Than $35,000', 8: '$75,000 or More'
+    1: 'Less Than $10,000', 2: 'Less Than $15,000', 3: 'Less Than $20,000',
+    4: 'Less Than $25,000', 5: 'Less Than $35,000', 6: 'Less Than $50,000',
+    7: 'Less Than $75,000', 8: '$75,000 or More'
 }
 df2['Income'] = df2['Income'].replace(income_map)
 
@@ -175,7 +175,7 @@ plt.tight_layout()
 plt.show()
 
 
-# In[29]:
+# In[65]:
 
 
 #General healh vs Diabetes
@@ -302,7 +302,7 @@ fig.update_layout(
 fig.show()
 
 
-# In[47]:
+# In[67]:
 
 
 # Income vs Diabetes
