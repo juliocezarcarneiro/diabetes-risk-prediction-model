@@ -17,22 +17,31 @@ This project develops a machine learning model to predict an individual's risk o
 
 
 ## 🛠️ Tools and Technologies
-- Python: pandas, numpy, scikit-learn, matplotlib, seaborn, XGBoost
+- Python: Pandas, Numpy, Scikit-learn, Matplotlib, Seaborn, XGBoost
 - Visualization: Plotly, Tableau
 - Deployment: Gradio
 - Development Environment: Jupyter Notebook, Google Colab
 
-## 📝 Evaluation Metrics and Finding
-- Random Forest Classification Model:
-No Diabetes (0) - precision = 0.93, recall =  0.95 
-Diabetes (1)- precision = 0.82 , recall = 0.76
--  Overall model accuracy is 91%
-- The model effectively identifies key health indicators contributing to diabetes risk, enabling personalized risk assessment.
-- The interactive app allows users to input their health information and receive immediate, actionable diabetes risk scores.
-- This approach supports early detection and promotes proactive health management.
+## 📈 Results & Insights
+- Best model: Random Forest Classifier with 91% accuracy
+- Class-wise performance:
+  - Class 0 (No Diabetes): Precision = 0.93 | Recall = 0.95
+  - Class 1 (Diabetes): Precision = 0.82 | Recall = 0.76
+- Key Predictive Features to indentify risk of diabetes:
+  - BMI
+  - Age category
+  - General health status
+  - Income level
+  - High blood pressure
+- The model identifies individuals at risk of diabetes based on lifestyle and health attributes, promoting personalized risk management and preventive care.
+
+##  🧪 Deployment
+- The trained model is deployed using Gradio.
+- Users can input their health information and receive a diabetes risk level (Low/High) prediction.
+🔗 Try the live demo
 
 ## 🚀 Future Enhancements
-- Integrate additional features (e.g., dietary patterns, medication).
+- Integrate additional features (e.g., dietary patterns, genetics, medication).
 - Improve deployment with cloud-based hosting.
 - Explore more advanced models or ensemble methods.
 
