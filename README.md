@@ -38,7 +38,6 @@ This project develops a machine learning model to predict an individual's risk o
 ##  🧪 Deployment
 - The trained model is deployed using Gradio.
 - Users can input their health information and receive a diabetes risk level (Low/High) prediction.
-🔗 Try the live demo
 
 ## 🚀 Future Enhancements
 - Integrate additional features (e.g., dietary patterns, genetics, medication).
