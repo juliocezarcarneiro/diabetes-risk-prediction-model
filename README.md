@@ -51,3 +51,8 @@ Anqa Javed, Humaira Enayetullah, Julio Carneiro, Shahab Eshghifard
 
 ## 📌 References
 - [Kaggle Dataset](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
+
+
+**Live access**
+-[Demo](https://juliocarneiro-diabetes-risk-predictor.hf.space/)
+-[Tableau](https://public.tableau.com/app/profile/shahab.eshghifard/viz/Book1_17491728312230/ExploringDiabetesRiskFactors)
