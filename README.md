@@ -26,7 +26,7 @@ This project develops a machine learning model to predict an individual's risk o
 - Random Forest Classification Model:
 No Diabetes (0) - precision = 0.93, recall =  0.95 
 Diabetes (1)- precision = 0.82 , recall = 0.76
-Overall model accuracy is 91%
+-  Overall model accuracy is 91%
 - The model effectively identifies key health indicators contributing to diabetes risk, enabling personalized risk assessment.
 - The interactive app allows users to input their health information and receive immediate, actionable diabetes risk scores.
 - This approach supports early detection and promotes proactive health management.
