@@ -1,1 +1,17 @@
 .ipynb_checkpoints/
+
+# Standard ignores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+api_keys.py
+config.py
+secrets.json
